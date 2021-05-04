@@ -1,0 +1,466 @@
+body{
+  /* font-family: 'Viaoda Libre', cursive; */
+  background: url("images/background.webp");
+}
+
+/*Navbar*/
+a #nav-link {
+  text-align: right;
+  font-weight: bold;
+  text-decoration-color: darkgrey;
+}
+
+#navbar{
+  background-color: purple;
+}
+
+/*BERITA*/
+#news {
+  text-align: center; 
+}
+
+/*Gatau*/
+#gatau { /*nanti ganti nama classnya */
+  text-align: center;
+ }
+#gatau img {
+  margin-bottom: 10px;
+  border-radius: 150px; 
+}
+
+/*Gambar belakang*/
+#belakang {
+  background: url("images/covid3.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+#belakang .jumbotron { 
+  background-color: rgba(255,255,255,0.5);
+}
+
+#belakang button{
+    background-color: #FBD43B;
+    font-weight: bold;
+}
+
+/* footer */
+.footer{
+    background-color: #DED4FF;
+    padding: 10px;
+    text-align: center;
+}
+
+/* form */
+.form{
+  width: 500px;
+  margin: auto;
+  background-color:#DED4FF;
+  padding: 25px;
+  border-radius: 0px;
+  box-shadow: 0.1px 0.1px 7.5px 0.5px grey;
+  margin-top: 20px;
+}
+
+.container .form h2{
+  text-align: center;
+}
+
+.form a{
+  float: right;
+}
+
+.form2{
+  width: 1110px;
+  background: url("images/uwu.jpg");
+  /* background-color: rgba(150, 52, 214, 0.5); */
+  padding-top: 10px;
+}
+
+/* statistika */
+.footer-stats {
+  background-color: #DED4FF;
+  padding: 30px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.widget-covid {
+  padding: 50px;
+}
+
+.covid19container {
+	display: flex;
+	overflow: hidden;
+	max-width: 500px;
+	width: 100%;
+	max-height: 150px;
+	border-radius: 8px;
+	box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+	margin: auto;
+}
+
+.covid__content {
+	flex: 1;
+	background: #fff;
+	padding: 35px 30px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.covid__hero_container {
+	align-items: center;
+	width: 25%;
+	text-align: center;
+	border-right: 1px solid #eaeaea;
+}
+
+.covid__location {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f8f9fa;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    border-top-right-radius: 7px;
+    border: 1px solid #eaeaea;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.covid__img {
+	height: 100%;
+    display: block;
+    padding: 15px;
+    margin: auto;
+    width: 100%;
+}
+
+.covid__content .covid__stats  {
+	display: flex;
+    margin: auto;
+}
+
+.covid__content .covid__stat {
+	font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    text-align: left;
+    border-right: 1px solid #dcdcdc;
+    padding-right: 10px;
+}
+
+.covid__content .covid__stat:last-child {
+	border-right: 0;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.covid__content .covid__stat span {
+	display: block;
+	font-weight: 300;
+}
+
+.covid__hero {
+	height: 100%;
+}
+
+.covid__status {
+    background: linear-gradient(to bottom, #c671f8, #aa61d4);
+	flex: 0 1 50px;
+	writing-mode: vertical-rl;
+	color: rgb(255, 255, 255);
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* about us */
+.container h1{
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.container .isi{
+  text-align: center;
+  margin: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5px;
+  margin-bottom: 50px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.container .gambar{
+  align-self: center;
+  margin-top: 30px;
+}
+
+/* STYLE BUAT HLMN PENCEGAHAN */
+/* Gambar */
+#tm-section-1 {	background-image: url(../WebDes/images/cegah11.jpg);
+  /* background-size: 650px 600px; */
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+}
+  
+#tm-section-2 {	background-image: url(../WebDes/images/cegah10.jpg); 
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+}
+
+#tm-section-3 {	background-image: url(../WebDes/images/cegah16.jpg); 
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+}
+
+
+.tm-section {
+	background-position: bottom right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 500px;	
+}
+
+.tm-home-right {
+  /* padding: 100px 70px 100px 100px; */
+    padding-bottom: 50px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+            text-align: right;
+}
+
+.tm-flex-center {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.thin-font { font-weight: 300; }
+
+
+
+.tm-white-curve-left,
+.tm-white-curve-right {
+	color: black;
+	/* margin-top: 30px;
+	margin-bottom: 30px; */
+}
+
+.tm-white-curve-right {	margin-right: -1px; }
+
+.tm-white-curve-left,
+.tm-white-curve-right {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-left: 0;
+}
+
+/* Untuk setengah lingkaran pertama */
+
+.tm-section-header {
+	font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.tm-white-curve-left1 {
+	color: black;
+	/* margin-top: 30px; */
+	/* margin-bottom: 20px; */
+}
+
+.tm-white-curve-left-rec1,
+.tm-white-curve-left-circle1 {
+  margin-top: 20px;
+  margin-left: 1px;
+  margin-right: 35px;
+  position: absolute;
+  background-color: white;	
+  /* margin-right: 35px; */
+	height: 80%;
+}
+
+.tm-white-curve-left-rec1 {
+	width: 230px;
+}
+
+.tm-white-curve-left-circle1 {
+  width: 520px;
+  right: 0px;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.tm-white-curve-text {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 65px;
+  padding-left: 20px;
+  padding-top: 10px;
+  /* margin-top: 90px; */
+  margin-bottom: 70px;
+
+  width: 90%;
+	position: relative;
+	z-index: 100;
+}
+
+
+/* untuk setengah lingkaran kedua */
+
+.tm-white-curve-right-rec,
+.tm-white-curve-right-circle {
+  margin-top: 30px;
+	position: absolute;
+	background-color: white;	
+	height: 80%;
+}
+
+.tm-white-curve-right-rec {
+	width: 250px;
+}
+
+
+.tm-white-curve-left-circle {
+	width: 520px;
+	right: 0;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.tm-white-curve-text2 {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  margin-left: 70px;
+  padding-left: 80px;
+  padding-top: 50px;
+  /* margin-top: 90px; */
+  margin-bottom: 90px;
+
+  width: 90%;
+	position: relative;
+	z-index: 100;
+}
+
+
+/* Untuk setengah lingkaran ketiga */
+.tm-white-curve-left-rec2,
+.tm-white-curve-left-circle2 {
+  margin-top: 30px;
+	position: absolute;
+	background-color: white;	
+	height: 83%;
+}
+
+.tm-white-curve-left-rec2 {
+	width: 250px;
+}
+
+.tm-white-curve-left-circle2 {
+	width: 520px;
+	right: 0;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.tm-white-curve-right-rec {
+	padding-right: 0;
+	right: 0;
+}
+
+.tm-white-curve-right-circle {
+	width: 520px;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+.tm-white-curve-text1 {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+  padding-left: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+  width: 85%;
+	position: relative;
+	z-index: 100;
+}
+
+.tm-white-curve-right > .tm-white-curve-text {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.blue-text { color: #00599a; }
+
+
+/* BUAT 3 FOTO YANG SEJAJAR DIBWH */
+img.foto1{
+  margin-left: 20px;
+}
+
+img.foto2{
+  margin-left: 10px;
+}
+
+img.foto3{
+  margin-left: 10px;
+}
